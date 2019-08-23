@@ -1,0 +1,50 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/valebes/git/Setup/Desktop/Progetti/rsclock/" . "src/")
+ ("/home/valebes/git/Setup/Desktop/Progetti/" . "rsclock/")
+ ("/home/valebes/git/Setup/Desktop/" . "Progetti/")
+ ("/home/valebes/git/" . "Setup/")
+ ("/home/valebes/" . "git/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/valebes/git/Setup/Desktop/Progetti/rsclock/src/"
+ "/home/valebes/git/Setup/"
+ "/home/valebes/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "main.rs"
+ "configuration.nix"
+ "init.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/valebes/git/nerd-fonts/" (23901 7999 689056 255000) "src/" "readme_tw.md" "readme_ru.md" "readme_pl.md" "readme_fr.md" "readme_cn.md" "readme.md" "patched-fonts/" "package.json" "install.sh" "images/" "font-patcher" "css/" "contributing.md" "code_of_conduct.md" "chocolatey/" "changelog.md" "bin/" "LICENSE" "CONTRIBUTORS.md" "10-nerd-font-symbols.conf" ".travis.yml" ".gitignore" ".github/" ".all-contributorsrc" ".git/" "../" "./")
+
+ ("/home/valebes/" (23902 41764 873611 564000) ".zshrc.local" ".cargo/" ".wget-hsts" ".bash_history" ".eve/" ".w3m/" ".viminfo" ".zshrc" ".emacs.d/" ".rustup/" ".zprofile" ".gnupg/" ".ssh/" ".vimrc" ".vim/" ".zsh_history" ".zcompdump-trixi-5.7.1" ".zshrc.pre-oh-my-zsh" ".oh-my-zsh/" "git/" ".pki/" ".esd_auth" ".local/" ".cache/" ".config/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".histfile" ".zcompdump" ".nix-defexpr/" ".nix-profile/" "../" "./")
+
+ ("/home/valebes/git/Setup/Desktop/Progetti/rsclock/src/" (23901 4079 999775 365000) "main.rs" "#main.rs#" "../" "./")
+
+ ("/home/valebes/.emacs.d/" (23902 41556 124991 494000) "ido.last" "recentf" "init.el" "init.el~" "recentf~" "logo.png" "projectile-bookmarks.eld" "auto-save-list/" "elpa/" "../" "./")
+
+ ("/home/valebes/git/Setup/Desktop/Progetti/rsclock/" (23902 40928 3683 155000) "default.nix" ".envrc" "target/" "src/" "README.md" "LICENSE" "Cargo.toml" "Cargo.lock" ".travis.yml" ".logo.swp" ".gitignore" "../" "./")
+
+ ("/home/valebes/git/Setup/Desktop/Progetti/" (23901 4079 999775 365000) "tar-rs/" "rsclock/" "hoffman/" "fibonacci/" "fex/" "ducky/" "archer/" "../" "./")
+
+ ("/home/valebes/git/Setup/Desktop/" (23901 4079 997775 301000) "Progetti/" "../" "./")
+
+ ("/home/valebes/git/Setup/" (23901 4080 6775 586000) "wpabak/" "portagebak/" "kernel-config-5.2.8" "configuration.nix" "Desktop/" ".zshrc" ".zprofile" ".vimrc" ".vim/" ".ssh/" ".irssi/" ".gnupg/" ".emacs.d/" ".config/" ".git/" "../" "./")
+
+ ("/home/valebes/git/" (23901 49527 392514 737000) "nerd-fonts/" "Setup/" "../" "./")
+
+ ("/home/valebes/Downloads/" (23901 47696 169514 929000) "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
