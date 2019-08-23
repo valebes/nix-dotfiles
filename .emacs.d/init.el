@@ -32,8 +32,6 @@ There are two things you can do about this warning:
 (add-to-list 'default-frame-alist
              '(font . "mononoki Nerd Font Mono-11"))
 (set-face-attribute 'default t :font "mononoki Nerd Font Mono-11")
-;; rust bin loc
-(setq exec-path (append exec-path '("~/.cargo/bin")))
 
 ;; toolbar
 (tool-bar-mode -1)
