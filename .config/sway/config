@@ -22,7 +22,7 @@ for_window [app_id="^launcher$"] floating enable, border pixel 5,resize set widt
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/.config/sway/bg.png fill
+output * bg ~/.config/sway/bg_nix.png fill
 #
 # Example configuration:
 #
