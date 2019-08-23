@@ -42,10 +42,10 @@ exec mako --font "mononoki Nerd Font Mono 10" \
 # Example configuration:
 #
  exec swayidle -w \
-          timeout 300 '~/.config/sway/glitchlock' \
+          timeout 300 '~/.config/sway/lock.sh' \
           timeout 600 'swaymsg "output * dpms off"' \
                resume 'swaymsg "output * dpms on"' \
-          before-sleep '~/.config/sway/glitchlock'
+          before-sleep '~/.config/sway/lock.sh'
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
@@ -89,7 +89,7 @@ input * xkb_layout "it"
     bindsym $mod+Shift+c reload
 
     # lock screen 
-    bindsym $mod+Shift+s exec ~/.config/sway/glitchlock
+    bindsym $mod+Shift+s exec ~/.config/sway/lock.sh
 
     # exit sway (logs you out of your Wayland session)
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
