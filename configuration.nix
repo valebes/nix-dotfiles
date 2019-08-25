@@ -71,9 +71,12 @@
 
   # Enable sound.
   sound.enable = true;
-  hardware.pulseaudio.enable = true;
-  hardware.pulseaudio.support32Bit = true;
- 
+  hardware.pulseaudio = {
+    enable = true;
+    support32Bit = true;
+    package = pkgs.pulseaudioFull;
+  };
+
   hardware.bluetooth.enable = true;
   hardware.opengl = {
     driSupport = true;
@@ -109,7 +112,10 @@
   
   # Explicit use of pulseaudio
   nixpkgs.config.pulseaudio = true;
-  
+ 
+  # Globally enable sandboxing
+  nix.useSandbox = true;
+ 
   # Fonts
   fonts.enableFontDir = true;
   fonts.enableGhostscriptFonts = true;
